@@ -5,13 +5,13 @@ Created on Fri Apr  6 03:40:13 2018
 
 @author: marcelo
 """
-#instalar tensorflow-gpu e keras
+# instalar tensorflow-gpu e keras
 import numpy as np
-import keras.models
+import keras.modelss
 import keras.layers
 import matplotlib.pyplot as plt
 from pandas import read_csv
-# fixar random seed para se puder reproduzir os resultados
+# fixar random seed para se poder reproduzir os resultados
 seed = 9
 np.random.seed(seed)
 
